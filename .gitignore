@@ -1,2 +1,15 @@
-# Ignore image dataset
-Dataset/Image/
+__pycache__
+*.egg-info
+*.pyc
+venv
+
+Datasets/*
+Models/*
+dist
+
+!*.md
+
+.idea
+.python-version
+
+test
